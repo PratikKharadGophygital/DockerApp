@@ -32,6 +32,12 @@ namespace DockerApp.Controllers
         public IActionResult AddPerson()
         {
             return View();
+            //comment add
+        }
+        public IActionResult NewAddPerson()
+        {
+            return View();
+            //comment add
         }
     }
 }
